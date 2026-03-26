@@ -7,42 +7,46 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to the AI Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of a poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        “No Man Is An Island”
-        <br />
-        “Stopping by Woods On a Snowy Evening”
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/Exploradora139" target="_blank">Dora Lopez</a>
-      and is
-      <a
-        href="https://github.com/Exploradora139/ai-poem-generator"
-        target="_blank"
-      >
-        open-sourced on GitHub</a
-      >
-      and is
-      <a href="https://explore-ai-poem-generator.netlify.app/" target="_blank"
-        >hosted on Netlify</a
-      >.
-    </footer>
-
+    <div class="container">
+      <header>
+        <h1>Welcome to the AI Poem Generator</h1>
+      </header>
+      <main>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the topic of a poem"
+              autofocus
+              required
+              autocomplete="off"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+        </div>
+        <div class="hint">“No Man Is An Island”</div>
+        <div class="poem hidden" id="poem">
+          “Stopping by Woods On a Snowy Evening”
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/Exploradora139" target="_blank"
+          >Dora Lopez</a
+        >
+        and is
+        <a
+          href="https://github.com/Exploradora139/ai-poem-generator"
+          target="_blank"
+        >
+          open-sourced on GitHub</a
+        >
+        and is
+        <a href="https://explore-ai-poem-generator.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
