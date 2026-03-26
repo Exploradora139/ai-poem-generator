@@ -49,6 +49,16 @@ form {
   font-size: 12px;
 }
 
+.instructions {
+  padding: 16px;
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+  color: navy;
+}
+
 .submit-button {
   margin-left: 10px;
   background: lightskyblue;
